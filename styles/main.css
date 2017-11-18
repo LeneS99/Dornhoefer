@@ -1,0 +1,95 @@
+/* ------ INDEX ------------------------------------------
+  - CSS RESET
+  - GENERAL HELPER CLASSES
+  - UNIVERSAL STYLES
+    - Layout
+    - Typography
+    - General Styles
+  - MODULAR ELEMENTS
+    - Element Name
+  - SECTION STYLES
+---------------------------
+Website Fonts: Für Headings und Paragraphs, Links etc.
+Website Colours: Farbcodes (hex) hier auflisten
+----------------------------
+*/
+
+/* ---- CSS RESET ---------------------------------------- */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*border: 1px solid red;*/
+}
+
+[class*=col-], [class*=col_], [class~=col] {
+  padding: 0;
+}
+
+[class*=grid-], [class*=grid_], [class~=grid] {
+  margin: 0;
+}
+
+/* ---- GENERAL HELPER CLASSES --------------------------- */
+.tall         { min-height:100vh; }
+.med-height   { min-height: 50vh; }
+.short        { min-height: 30vh; }
+
+.left         { text-align: left; }
+.centered     { text-align: center; }
+.right        { text-align: right; }
+
+.no-padding { padding: 0; }
+
+.white-bg    { background-color: rgb(245,245,245); }
+.darkgrey-bg { background-color: rgb(60,60,60); }
+.feat-bg     { background-color: ; }
+
+/* ---- UNIVERSAL STYLES ---------------------------------- */
+body{ /* font aussuchen und hier eintragen, link in html eintragen */ (head)
+  font-family:
+  color:
+  background-color:
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family:
+}
+
+h1{
+  font-size:
+}
+
+h2{
+  font-size:
+}
+
+h3{
+  font-size:
+}
+
+p{
+  font-size:
+  line-height: 1.8;
+  color:
+  font-family:
+}
+
+a{
+  text-decoration: none;
+  color:
+  font-family:
+}
+
+section{
+
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+/* --- MODULAR STYLES ----*/
+
+/* --- SECTION STYLES ----*/
