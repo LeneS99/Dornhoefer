@@ -9,8 +9,8 @@
     - Element Name
   - SECTION STYLES
 ---------------------------
-Website Fonts: Für Headings und Paragraphs, Links etc.
-Website Colours: Farbcodes (hex) hier auflisten
+Website Fonts: h: Oswald p, etc.: Source Sans Pro
+Website Colours: Farbcodes (hex) hier auflisten Text: #383838;
 ----------------------------
 */
 
@@ -47,13 +47,13 @@ Website Colours: Farbcodes (hex) hier auflisten
 
 /* ---- UNIVERSAL STYLES ---------------------------------- */
 body{ /* font aussuchen und hier eintragen, link in html eintragen */ (head)
-  font-family:
-  color:
-  background-color:
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #383838;
+  background-color: #FFFFFF;
 }
 
 h1, h2, h3, h4, h5, h6{
-  font-family:
+  font-family: 'Oswald', sans-serif;
 }
 
 h1{
@@ -69,16 +69,16 @@ h3{
 }
 
 p{
-  font-size:
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #383838;
   line-height: 1.8;
-  color:
-  font-family:
+  font-size: 22px;
 }
 
 a{
+  font-family: 'Source Sans Pro', sans-serif;
   text-decoration: none;
   color:
-  font-family:
 }
 
 section{
