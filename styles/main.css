@@ -78,7 +78,7 @@ p{
 a{
   font-family: 'Source Sans Pro', sans-serif;
   text-decoration: none;
-  color:
+  color: #ffffff;
 }
 
 section{
@@ -93,3 +93,35 @@ img{
 /* --- MODULAR STYLES ----*/
 
 /* --- SECTION STYLES ----*/
+
+/* --- header section ----*/
+nav{
+  background-color: #11253E;
+  justify-content: space-between;
+}
+.logo{
+  font-family: Arial, sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  line-height: 1.5;
+  margin: 1rem;
+}
+
+.logo_unterschrift{
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  text-transform: none;
+  line-height: none;
+  margin: none;
+  color: #ffffff;
+}
+
+/* --- dienstleistung section ---- */
+.dienstleistung{
+  margin-top: 1%;
+}
+
+.background_image_merch{
+  background-image: url('../images/FotoMerchandising.jpg');
+  padding: 10%;
+}

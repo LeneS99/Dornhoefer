@@ -15,33 +15,36 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
   <!-- externe CSS Stylesheets (bspw. GoogleFonts)-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.6.0/gridlex.min.css">
   <link href="https://fonts.googleapis.com/css?family=Oswald|Source+Sans+Pro" rel="stylesheet">
 
   <!--  eigenes CSS Stylesheet -->
-  <link href="/styles/main.css" rel="stylesheet">
+  <link href="styles/main.css" rel="stylesheet">
 </head>
 
 <body>
 
   <!-- Menü -->
   <header>
-    <nav>
-      <a href="#"><img src="images/Firmenpräsentation Kopie.jpg" alt="logo Dornhöfer"></a>
-      <a href="#">Dienstleistungen</a>
-      <a href="#">Warum Dornhöfer</a>
-      <a href="#">Team</a>
-      <a href="#">Kunden</a>
-      <a href="#">Kontakt</a>
+    <nav id="home" class="grid-middle">
+      <a href="#home" class="col-3 logo centered">Dornhöfer<br><p class="logo_unterschrift">Merchandising Projektmanagement Logistik</p></a>
+      <div class="nav_links col-8 grid-middle-right">
+        <a href="#dienstleistungen" class="col-2">Dienstleistungen</a>
+        <a href="#" class="col-2">Warum Dornhöfer</a>
+        <a href="#" class="col-2">Team</a>
+        <a href="#" class="col-2">Kunden</a>
+        <a href="#" class="col-2">Kontakt</a>
+      </div>
     </nav>
   </header>
 
   <!-- Dienstleistungen -->
-  <section id="Dienstleistungen" class="" >
+  <section id="dienstleistungen" class="dienstleistung" >
     <!-- Merchandising -->
-    <div class=""> <!-- breites Bild -->
+    <div class="background_image_merch"> <!-- breites Bild -->
       <div class=""> <!-- rechte Seite mit Weichzeichnung -->
         <div class=""> <!-- weißer Texthintergrund -->
-          <img src="images/map-marker-2-xxl.png" alt=""> <!-- icon -->
+          <!-- <img src="images/map-marker-2-xxl.png" alt=""--> <!-- icon -->
           <h2>Merchandising</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
