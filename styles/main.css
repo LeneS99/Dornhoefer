@@ -72,7 +72,7 @@ p{
   font-family: 'Source Sans Pro', sans-serif;
   color: #383838;
   line-height: 1.8;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 a{
@@ -91,6 +91,18 @@ img{
 }
 
 /* --- MODULAR STYLES ----*/
+.blur{
+  filter: blur(1.5px);
+}
+
+.beschreibung_rechts{
+  width: 45%;
+  height: 47%;
+  margin-top: -24%;
+  margin-left: 2.25%;
+  position: absolute;
+  padding: 2%;
+}
 
 /* --- SECTION STYLES ----*/
 
@@ -101,8 +113,10 @@ nav{
 }
 .logo{
   font-family: Arial, sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
+  text-spa
+  text-transform:
   line-height: 1.5;
   margin: 1rem;
 }
@@ -121,7 +135,49 @@ nav{
   margin-top: 1%;
 }
 
-.background_image_merch{
-  background-image: url('../images/FotoMerchandising.jpg');
-  padding: 10%;
+.merch_links{
+  width: 49.5%;
+  height: 55%;
+}
+
+.background_image_merch_links{
+  background-image: url('../images/FotoMerchandisingLinks.jpeg');
+  width: 100%;
+  height: 100%;
+}
+
+.merch_rechts{
+  width: 49.5%;
+  height: 55%;
+  margin-left: 1%;
+}
+
+.background_image_merch_rechts{
+  background-image: url('../images/FotoMerchandisingRechts.jpg');
+  width: 100%;
+  height: 100%;
+}
+
+.border_bottom{
+  border-bottom: #b7b7b7 1px solid;
+  width: 15%;
+  position: absolute;
+  margin-left: 38%;
+  text-align: center;
+}
+
+.icon{
+  width: 4%;
+  margin-top: -3%;
+}
+
+.ueberschrift{
+  margin-bottom: 1%;
+  letter-spacing: 0.2rem;
+}
+
+.beschreibung{
+  margin: 1%;
+  margin-top: 5%;
+  font-size: 1.06rem;
 }
