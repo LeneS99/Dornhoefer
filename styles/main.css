@@ -19,7 +19,7 @@ Website Colours: Farbcodes (hex) hier auflisten Text: #383838;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /*border: 1px solid red;*/
+  /* border: 1px solid red; */
 }
 
 [class*=col-], [class*=col_], [class~=col] {
@@ -91,18 +91,7 @@ img{
 }
 
 /* --- MODULAR STYLES ----*/
-.blur{
-  filter: blur(1.5px);
-}
 
-.beschreibung_rechts{
-  width: 45%;
-  height: 47%;
-  margin-top: -24%;
-  margin-left: 2.25%;
-  position: absolute;
-  padding: 2%;
-}
 
 /* --- SECTION STYLES ----*/
 
@@ -131,29 +120,34 @@ nav{
 }
 
 /* --- dienstleistung section ---- */
-.dienstleistung{
-  margin-top: 1%;
+/* .dienstleistung{
+  margin-top: 1.5%;
+  justify-content: space-between;
 }
 
 .merch_links{
-  width: 49.5%;
-  height: 55%;
+  width: 49%;
+  height: 22rem;
 }
 
 .background_image_merch_links{
   background-image: url('../images/FotoMerchandisingLinks.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 100%;
   height: 100%;
 }
 
 .merch_rechts{
-  width: 49.5%;
-  height: 55%;
+  width: 49%;
+  height: 22rem;
   margin-left: 1%;
 }
 
 .background_image_merch_rechts{
   background-image: url('../images/FotoMerchandisingRechts.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 100%;
   height: 100%;
 }
@@ -177,7 +171,59 @@ nav{
 }
 
 .beschreibung{
-  margin: 1%;
   margin-top: 5%;
   font-size: 1.06rem;
 }
+
+.blur{
+  filter: blur(1.5px);
+}
+
+.beschreibung_rechts{
+  width: 42%;
+  height: 44%;
+  position: absolute;
+  padding: 2%;
+}*/
+
+/* ALLGEMEINES STYLING DIENSTLEISTUNG */
+
+.sectionrow{
+  margin-top: 1%;
+}
+
+.left_pic{
+  width: 49%;
+  height: 22rem;
+  float: left;
+}
+
+.right_pic{
+  width: 49%;
+  height: 22rem;
+  float: right;
+}
+
+.beschreibung_bg{
+  height: 90%;
+  filter: none;
+}
+
+.icon{
+  width: 4%;
+  margin-top: -3%;
+}
+
+/* INDIVIDUELLES STYLING DIENSTLEISTUNG */
+
+.background_image_merch_links{
+  background-image:
+  url('../images/FotoMerchandisingLinks.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background_image_merch_rechts{
+  background-image: url('../images/FotoMerchandisingRechts.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
