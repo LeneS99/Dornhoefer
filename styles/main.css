@@ -110,7 +110,7 @@ nav{
   margin: 1rem;
 }
 
-.logo_unterschrift{
+.logo_unterschrift {
   font-family: Arial, sans-serif;
   font-size: 1rem;
   text-transform: none;
@@ -122,10 +122,6 @@ nav{
 /* ALLGEMEINES STYLING DIENSTLEISTUNG */
 
 .sectionrow{
-  margin-top: 1%;
-}
-
-.sectionrowlog{
   margin-top: 1%;
 }
 
@@ -211,4 +207,28 @@ nav{
   background-image: url('../images/FotoLogistikRechts.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+/* ALLGEMEINES STYLING ÜBER UNS */
+
+h1.ueberschrift{
+  margin-top: 2%;
+}
+
+.sectionrow_about{
+  margin-top: 2%;
+  height: 50%;
+  justify-content: space-around;
+}
+
+.blue_bg{
+  background-color: #649ECF;
+  border-radius: 50%;
+  height: 244.92px;
+}
+
+.white_border{
+  border: 2px solid white;
+  border-radius: 50%;
+  height: 75%;
 }
