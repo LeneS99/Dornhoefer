@@ -217,7 +217,7 @@ h1.ueberschrift{
 
 .sectionrow_about{
   margin-top: 2%;
-  height: 50%;
+  height: 42%;
   justify-content: space-around;
 }
 
@@ -231,4 +231,12 @@ h1.ueberschrift{
   border: 2px solid white;
   border-radius: 50%;
   height: 75%;
+}
+
+.argument_1{
+  margin-top: -2.5%;
+}
+
+.sectionrow_about_text{
+  justify-content: space-around;
 }
