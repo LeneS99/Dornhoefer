@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 h1{
-  font-size:
+  text-transform: uppercase;
 }
 
 h2{
@@ -92,6 +92,9 @@ img{
 
 /* --- MODULAR STYLES ----*/
 
+.darkblue_bg{
+  color: #11253E;
+}
 
 /* --- SECTION STYLES ----*/
 
@@ -239,4 +242,63 @@ h1.ueberschrift{
 
 .sectionrow_about_text{
   justify-content: space-around;
+}
+
+/* ALLGEMEINES STYLING TEAM */
+
+.ueberschrift_section{
+  margin-top: 5%;
+}
+
+.team_ueberschrift{
+  margin-top: 2%;
+}
+
+/* INDIVIDUELLES STYLING TEAM */
+
+.background_image_team1_links{
+  background-image:
+  url('../images/FotoTeam1Links.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background_image_team1_rechts{
+  background-image:
+  url('../images/FotoTeam1Rechts.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background_image_team2_links{
+  background-image:
+  url('../images/FotoTeam2Links.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background_image_team2_rechts{
+  background-image:
+  url('../images/FotoTeam2Rechts.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* ALLGEMEINES STYLING KONTAKT */
+
+#kontakt{
+  margin-top: 1%;
+  width: 100%;
+}
+
+.kontakt_pic{
+  height: 40rem;
+  justify-content: space-between;
+}
+
+.background_image_kontakt_google{
+  background-image:
+  url('../images/GoogleMapsHintergrund.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
