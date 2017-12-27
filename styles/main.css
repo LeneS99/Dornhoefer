@@ -92,10 +92,6 @@ img{
 
 /* --- MODULAR STYLES ----*/
 
-.darkblue_bg{
-  color: #11253E;
-}
-
 /* --- SECTION STYLES ----*/
 
 /* --- header section ----*/
@@ -293,7 +289,7 @@ h1.ueberschrift{
 
 .kontakt_pic{
   height: 40rem;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .background_image_kontakt_google{
@@ -301,4 +297,39 @@ h1.ueberschrift{
   url('../images/GoogleMapsHintergrund.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.darkblue_bg{
+  background-color: #11253E;
+  height: 55.5%;
+}
+
+.kontakt_pic p{
+  color: white;
+}
+
+.kontakt_pic div.col-2{
+  height: fit-content;
+  margin-top: 15%;
+}
+
+.kontakt_half{
+  height: 50%;
+}
+
+/* ALLGEMEINES STYLING FOOTER */
+
+footer{
+  background-color: #11253E;
+  height: 7%;
+  justify-content: space-between;
+}
+
+footer p, a{
+  color: white;
+  font-size: 14px;
+}
+
+footer div{
+  margin: 0 auto;
 }
