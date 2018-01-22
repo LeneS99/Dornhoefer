@@ -103,19 +103,21 @@ nav{
   font-family: Arial, sans-serif;
   font-size: 1.5rem;
   text-transform: uppercase;
-  text-spa
-  text-transform:
   line-height: 1.5;
   margin: 1rem;
+  letter-spacing: 0.3rem;
+  font-weight: bold;
 }
 
 .logo_unterschrift {
   font-family: Arial, sans-serif;
-  font-size: 1rem;
-  text-transform: none;
+  font-size: 0.87rem;
+  text-transform: uppercase;
   line-height: none;
   margin: none;
   color: #ffffff;
+  font-weight: normal;
+  letter-spacing: 0rem;
 }
 
 /* ALLGEMEINES STYLING DIENSTLEISTUNG */
@@ -163,7 +165,7 @@ nav{
   margin-left: 44%;
 }
 
-.beschreibung_text p{
+.beschreibung_text p, ul{
   padding: 3%;
   text-align: center;
   font-size: 18px;
