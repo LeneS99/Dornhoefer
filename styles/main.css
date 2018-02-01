@@ -214,24 +214,35 @@ nav{
 
 h1.ueberschrift{
   margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .sectionrow_about{
-  margin-top: 2%;
-  height: 42%;
   justify-content: space-around;
+  width: 91.66667%;
+  margin-bottom: 2%;
+  margin-top: 2%;
 }
 
 .blue_bg{
   background-color: #649ECF;
   border-radius: 50%;
-  height: 244.92px;
+  height: 0;
+  width: 20%;
+  padding-bottom: 20%;
 }
 
 .white_border{
   border: 2px solid white;
   border-radius: 50%;
-  height: 75%;
+  height: 0;
+  width: 70%;
+  padding-bottom: 70%;
+  margin-top: 100%;
+}
+
+.white_border img{
+  margin-top: 100%;
 }
 
 .argument_1{
@@ -240,6 +251,8 @@ h1.ueberschrift{
 
 .sectionrow_about_text{
   justify-content: space-around;
+  width: 91.66667%;
+  margin-bottom: 2%;
 }
 
 /* ALLGEMEINES STYLING TEAM */
@@ -282,6 +295,64 @@ h1.ueberschrift{
   background-repeat: no-repeat;
 }
 
+/* ALLGEMEINE STYLING KUNDEN */
+
+.sectionrow_customer{
+  justify-content: space-around;
+  width: 91.66667%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.customer_circle{
+  border: 2px solid #11253E;
+  border-radius: 50%;
+  height: 0;
+  width: 10%;
+  padding-bottom: 10%;
+}
+
+/* .customer_circle:hover{
+  border: 2px solid #649ECF;
+} */
+
+.customer_circle:hover{
+  border: 3px solid #649ECF;
+  max-width: 10%;
+  max-height: 0;
+}
+
+/* INDIVIDUELLES STYLING KUNDEN */
+
+.gopro{
+  background-image: url('../images/gopro.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.huawei{
+  background-image: url('../images/huawei-logo-vector.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.ubisoft{
+  background-image: url('../images/Ubisoft-Logo-vector-image.png');
+  background-position: top;
+  background-size: cover;
+}
+
+.dior{
+  background-image: url('../images/Dior_Logo.png');
+  background-position: top;
+  background-size: cover;
+}
+
+.ysl{
+  background-image: url('../images/logo_cassandre-ysl.png');
+  background-position: top;
+  background-size: cover;
+}
 /* ALLGEMEINES STYLING KONTAKT */
 
 #kontakt{
