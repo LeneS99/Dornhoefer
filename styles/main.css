@@ -122,6 +122,10 @@ nav{
   letter-spacing: 0rem;
 }
 
+.nav_links{
+  justify-content: space-evenly;
+}
+
 /* ALLGEMEINES STYLING DIENSTLEISTUNG */
 
 .sectionrow{
@@ -401,4 +405,18 @@ footer p, footer a{
 
 footer div{
   margin: 0 auto;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media all and (max-width: 1432px) {
+  .logo_unterschrift{
+    font-size: 0.70rem;
+  }
+}
+
+@media all and (max-width: 1154px) {
+  .logo_unterschrift{
+    font-size: 0.5rem;
+  }
 }
