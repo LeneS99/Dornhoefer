@@ -16,6 +16,7 @@
   <!-- externe CSS Stylesheets (bspw. GoogleFonts)-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.6.0/gridlex.min.css">
   <link href="https://fonts.googleapis.com/css?family=Oswald|Source+Sans+Pro" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!--  eigenes CSS Stylesheet -->
   <link href="styles/main.css" rel="stylesheet">
@@ -26,7 +27,10 @@
   <!-- Menü -->
   <header>
     <nav id="home" class="grid-middle">
-      <a href="#home" class="col-3 logo centered">Dornhöfer<br><p class="logo_unterschrift">Merchandising Projektmanagement Logistik</p></a>
+      <!-- <a href="#home" class="col-3">
+        <img src="images/logo.jpg" alt="" class="logo">
+        <img src="images/min_logo.jpg" alt="" class="min_logo">
+      </a>
       <div class="col-7 topnav right">
         <a href="#leistungen" class="col-2 centered menu">Leistungen</a>
         <a href="#überuns" class="col-2 centered menu">Über uns</a>
@@ -34,9 +38,49 @@
         <a href="#kunden" class="col-2 centered menu">Kunden</a>
         <a href="#kontakt" class="col-2 centered">Kontakt</a>
         <a href="javascript:void(0);" class="navicon" onclick="myFunction()">&#9776;</a>
+      </div> -->
+      <div class="menu-icon">
+        <i class="fa fa-bars fa-2x"></i>
+      </div>
+      <div class="col-3 logo">
+        <a href="#home">
+          <img src="images/logo.jpg" alt="" class="max_logo">
+          <!-- <img src="images/min_logo.jpg" alt="" class="min_logo"> -->
+        </a>
+      </div>
+      <div class="col-8 menu">
+        <ul>
+          <li> <a href="#leistungen">Leistungen</a> </li>
+          <li> <a href="#überuns">Über uns</a> </li>
+          <li> <a href="#team">Team</a> </li>
+          <li> <a href="#kunden">Kunden</a> </li>
+          <!-- <li> <a href="#kontakt">Kontakt</a> </li> -->
+        </ul>
       </div>
     </nav>
   </header>
+
+  <script type="text/javascript">
+
+    //Menu toggle button
+
+    $(document).ready(function() {
+      $(".menu-icon").on("click", function() {
+        $("nav ul").toggleClass("showing");
+      });
+    });
+
+    $(window).on("scroll", function() {
+      if($(window).scrollTop()) {
+        $('nav').addClass('black');
+      }
+      else {
+        $('nav').removeClass('black');
+      }
+    });
+  </script>
+
+
 
   <!-- Leistungen -->
   <section id="leistungen" class="grid">

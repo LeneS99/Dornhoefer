@@ -98,46 +98,119 @@ img{
 
 /* --- header section ----*/
 nav{
-  background-color: #11253E;
-  justify-content: space-between;
-}
-.logo{
-  font-family: Arial, sans-serif;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  line-height: 1.5;
-  margin: 1rem;
-  letter-spacing: 0.3rem;
-  font-weight: bold;
+  background-color: #0a3252;
+  /* justify-content: space-between; */
+  position: fixed;
+  width: 100%;
+
 }
 
-.logo_unterschrift {
-  font-family: Arial, sans-serif;
-  font-size: 0.87rem;
-  text-transform: uppercase;
-  line-height: none;
-  margin: none;
-  color: #ffffff;
-  font-weight: normal;
-  letter-spacing: 0rem;
-}
-
-.topnav{
+/* .topnav{
   margin-right: 5%;
 }
 
 .topnav :hover{
   color: #649ECF;
   transition: 0.3s;
-}
+} */
 
-.menu{
+/* .menu{
   margin-right: 5%;
 }
 
 .navicon{
+  display: none; */
+}
+
+.logo{
+  position: fixed;
+  float: left;
+  margin-left: 16px 36px;
+}
+
+nav ul{
+  list-style: none;
+  overflow: hidden;
+  text-align: center;
+  margin-left: 0;
+  transition: 1s;
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 0px 20px;
+
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+.menu-icon{
+  width: 100%;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 15px 24px;
+  cursor: pointer;
+  color: #fff;
   display: none;
 }
+
+@media(max-width: 580px) {
+  .logo{
+    position: fixed;
+    top: 0;
+    margin-top: 16px;
+  }
+
+  nav ul {
+    max-height: 0px;
+  }
+
+  nav.black ul{
+    background: #000;
+  }
+
+  .showing{
+    max-height: 20em;
+  }
+
+  nav ul li{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 24px 0;
+    text-align: center;
+  }
+
+  .menu-icon{
+    display: block;
+  }
+}
+
+body{
+  overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ALLGEMEINES STYLING DIENSTLEISTUNG */
 
 .sectionrow{
@@ -381,7 +454,7 @@ h1.ueberschrift{
 }
 
 .darkblue_bg{
-  background-color: #11253E;
+  background-color: #0a3252;
   height: 55.5%;
 }
 
@@ -406,7 +479,7 @@ h1.ueberschrift{
 /* ALLGEMEINES STYLING FOOTER */
 
 footer{
-  background-color: #11253E;
+  background-color: #0a3252;
   height: 7%;
   justify-content: space-between;
 }
@@ -424,17 +497,17 @@ footer div{
 
 /* responsive nav */
 @media screen and (max-width: 900px) {
-  .topnav a:not {
+  /* .topnav a {
     display: none;
   }
   .topnav a.navicon {
     float: right;
     display: block;
-  }
+  } */
 }
 
 @media screen and (max-width: 900px) {
-  .topnav.responsive {position: relative;}
+  /* .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
     position: absolute;
     right: 0;
@@ -444,17 +517,14 @@ footer div{
     float: none;
     display: block;
     text-align: left;
+  } */
+  /* .logo{
+    display: none */
   }
 }
 
-@media all and (max-width: 1432px) {
-  .logo_unterschrift{
-    font-size: 0.70rem;
-  }
-}
-
-@media all and (max-width: 1154px) {
-  .logo_unterschrift{
-    font-size: 0.5rem;
+@media all and (min-width: 901px) {
+  .min_logo{
+    display: none;
   }
 }
