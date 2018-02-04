@@ -20,70 +20,38 @@
 
   <!--  eigenes CSS Stylesheet -->
   <link href="styles/main.css" rel="stylesheet">
+
+  <!-- Jquery -->
+  <script
+  src="http://code.jquery.com/jquery-3.3.1.js"></script>
+
 </head>
 
 <body>
 
   <!-- Menü -->
   <header>
-    <nav id="home" class="grid-middle">
-      <!-- <a href="#home" class="col-3">
-        <img src="images/logo.jpg" alt="" class="logo">
-        <img src="images/min_logo.jpg" alt="" class="min_logo">
-      </a>
-      <div class="col-7 topnav right">
-        <a href="#leistungen" class="col-2 centered menu">Leistungen</a>
-        <a href="#überuns" class="col-2 centered menu">Über uns</a>
-        <a href="#team" class="col-2 centered menu">Team</a>
-        <a href="#kunden" class="col-2 centered menu">Kunden</a>
-        <a href="#kontakt" class="col-2 centered">Kontakt</a>
-        <a href="javascript:void(0);" class="navicon" onclick="myFunction()">&#9776;</a>
-      </div> -->
+    <nav id="home" class="">
       <div class="menu-icon">
-        <i class="fa fa-bars fa-2x"></i>
+        <i class="fa fa-bars fa 2x"></i>
       </div>
-      <div class="col-3 logo">
-        <a href="#home">
-          <img src="images/logo.jpg" alt="" class="max_logo">
-          <!-- <img src="images/min_logo.jpg" alt="" class="min_logo"> -->
-        </a>
+      <div class="logo">
+        <img src="images/logo.jpg" alt="">
       </div>
-      <div class="col-8 menu">
+      <div class="menu">
         <ul>
-          <li> <a href="#leistungen">Leistungen</a> </li>
-          <li> <a href="#überuns">Über uns</a> </li>
-          <li> <a href="#team">Team</a> </li>
-          <li> <a href="#kunden">Kunden</a> </li>
-          <!-- <li> <a href="#kontakt">Kontakt</a> </li> -->
+          <li><a href="#leistungen">Leistungen</a></li>
+          <li><a href="#überuns">Über uns</a></li>
+          <li><a href="#kunden">Kunden</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
         </ul>
       </div>
     </nav>
   </header>
 
-  <script type="text/javascript">
-
-    //Menu toggle button
-
-    $(document).ready(function() {
-      $(".menu-icon").on("click", function() {
-        $("nav ul").toggleClass("showing");
-      });
-    });
-
-    $(window).on("scroll", function() {
-      if($(window).scrollTop()) {
-        $('nav').addClass('black');
-      }
-      else {
-        $('nav').removeClass('black');
-      }
-    });
-  </script>
-
-
-
   <!-- Leistungen -->
-  <section id="leistungen" class="grid">
+  <div class="container">
+    <section id="leistungen" class="grid">
     <!-- MERCHANDISING -->
     <div class="col-12 sectionrow">
       <div class="left_pic background_image_merch_links">
@@ -146,6 +114,7 @@
       </div>
     </div>
   </section>
+  </div>
 
   <!-- Über uns -->
   <section id="überuns" class="grid-center">
@@ -217,10 +186,10 @@
   </section>
 
   <!-- Team -->
-  <section id="team" class="grid-center">
-    <h1 class="col-12 ueberschrift_section centered">Unser Team</h1>
+  <!-- <section id="team" class="grid-center">
+    <h1 class="col-12 ueberschrift_section centered">Unser Team</h1> -->
     <!-- Mitglied 1 -->
-    <div class="col-12 sectionrow">
+    <!-- <div class="col-12 sectionrow">
       <div class="left_pic background_image_team1_links">
       </div>
       <div class="right_pic background_image_team1_rechts description_tile grid-center-middle">
@@ -235,9 +204,9 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- Mitglied 2 -->
-    <div class="col-12 sectionrow">
+    <!-- <div class="col-12 sectionrow">
       <div class="left_pic background_image_team2_links description_tile grid-center-middle">
         <div class="white-bg beschreibung_bg col-11">
           <div class="team_ueberschrift">
@@ -252,8 +221,8 @@
       </div>
       <div class="right_pic background_image_team2_rechts">
       </div>
-    </div>
-  </section>
+    </div> -->
+  <!-- </section> -->
 
   <!-- Kunden -->
   <section id="kunden" class="grid-center">
@@ -305,5 +274,15 @@
       <a href="impressum.html">Impressum</a>
     </div>
   </footer>
-  <script src=“script.js”></script>
+
+  <!-- Scripte -->
+  <script type="text/javascript">
+
+    $(document).ready(function(){
+      $(".menu-icon").on("click", function() {
+        $("nav ul").toggleClass("showing")
+      });
+    });
+
+  </script>
 </body>
