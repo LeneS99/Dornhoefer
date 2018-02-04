@@ -213,6 +213,10 @@ nav :hover{
     text-align: center;
   }
 
+  nav ul li a{
+    font-size: 20px;
+  }
+
   .menu-icon{
     display: block;
   }
@@ -471,7 +475,9 @@ h1.ueberschrift{
 
 .darkblue_bg{
   background-color: #0a3252;
-  height: 55.5%;
+  height: 0;
+  width: 25%;
+  padding-bottom: 25%;
 }
 
 .kontakt_pic p,a{
@@ -488,8 +494,72 @@ h1.ueberschrift{
   margin-top: 15%;
 }
 
+.kontakt-icon{
+  margin-top: 20%;
+}
+
 .kontakt_half{
-  height: 50%;
+  margin-top: 20%;
+}
+
+.kontakt_half_mail{
+  margin-top: 20%;
+}
+
+.mail-icon{
+  width: 14%;
+}
+
+@media(max-width:1260px){
+  .kontakt_pic p,a{
+    font-size: 16px;
+  }
+}
+
+@media(max-width: 1000px){
+  .kontakt_pic p,a{
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 800px){
+  .kontakt_pic p,a{
+    font-size: 10px;
+  }
+}
+
+@media(max-width: 580px){
+  .darkblue_bg{
+    width: 70%;
+  }
+
+  .kontakt-icon{
+    margin-top: 11%;
+    margin-left: -79%;
+  }
+
+  .mail-icon{
+    width: 10%;
+    margin-top: 13%;
+  }
+
+  .phone_text{
+    margin-top: -10%;
+  }
+
+  .adress_text{
+    margin-top: -12%;
+  }
+
+  .mail_text{
+    margin-top: -6%;
+  }
+}
+
+@media(max-width: 400px) {
+  .kontakt_pic{
+    height: 30rem;
+  }
 }
 
 /* ALLGEMEINES STYLING FOOTER */
@@ -507,6 +577,12 @@ footer p, footer a{
 
 footer div{
   margin: 0 auto;
+}
+
+@media(max-width: 455px){
+  footer p, footer a{
+    font-size: 12px;
+  }
 }
 
 /* RESPONSIVE DESIGN */
